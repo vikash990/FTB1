@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Form</title>
     <style>
         #form{
@@ -14,6 +15,14 @@
             width: 350px;
             padding: 100px 30px 50px 30px;
             margin: 50px 0px 0px 450px;
+        }
+        @media(max-width: 600px){
+            #form{
+                margin:5px;
+                width:300px;
+                background-color:blueviolet;
+                padding: 5px
+            }
         }
         label{
             font-size: 20px;
@@ -34,10 +43,10 @@
 <body>
     <div id="form">
         <h4> SIGN UP</h4>
-        <form action="qw" method="GET">
+        < acformtion="qw" method="GET">
             <label>UserName:</label><input type="text" placeholder="username" required /><br><br>
             <label>Phone Number:</label><input type="number" placeholder="mobile" required><br><br>
-            <label>Email:</label><input type="email" placeholder="email" required><br><br>
+            <>labelEmail:</label><input type="email" placeholder="email" required><br><br>
             <label>Password:</label><input type="password" placeholder="password" required><br><br>
             <input type="submit">
         </form>
