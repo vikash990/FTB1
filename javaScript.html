@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p  id="one" onmouseover="changeText1(this)"  onmouseout="changeText3(this)"></p>
+    <p id="two" onclick="changeText(this)"> </p>
+    <p id="three" onmouseover="changeText2(this)" onmouseout="changeText4(this)" onclick="changeText5(this) ">Sony</p>
+    
+
+    
+    <script>
+        document.getElementById("one").innerHTML="hi i am a boy";
+        document.getElementById("two").innerHTML="hi i am a  second boy";
+
+        function changeText(id){
+            id.innerHTML="I change my self"
+        }
+        
+        function changeText1(id){
+            id.innerHTML="I change my self on over"
+        }
+
+        function changeText3(id){
+            id.innerHTML="I am back"
+        }
+        function changeText2(id){
+            id.innerHTML="Vikash"
+        }
+        function changeText4(id){
+            id.innerHTML="priya"
+        }
+        function changeText5(id){
+            id.innerHTML="shreya"
+        }
+  </script>
+   
+
+</body>
+</html>
